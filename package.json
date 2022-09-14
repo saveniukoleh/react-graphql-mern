@@ -1,0 +1,24 @@
+{
+  "name": "react-graphql-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:saveniukoleh/react-graphql-mern.git",
+  "author": "Oleh Saveniuk <oleh.saveniuk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.19"
+  }
+}
